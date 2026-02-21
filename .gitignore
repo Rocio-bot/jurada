@@ -1,0 +1,20 @@
+# Ignorar todo por defecto
+*
+
+# Incluir .gitignore
+!.gitignore
+
+# Incluir j-clientes-gle.xlsx
+!j-busqueda clientes/
+j-busqueda clientes/*
+!j-busqueda clientes/j-clientes-gle.xlsx
+
+# Incluir carpeta en_curso-j
+!CLIENTES J/
+CLIENTES J/*
+!CLIENTES J/en_curso-j/
+!CLIENTES J/en_curso-j/**
+
+# Incluir carpeta pls_presu_fac_j
+!pls_presu_fac_j/
+!pls_presu_fac_j/**
